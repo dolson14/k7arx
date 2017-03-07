@@ -24,18 +24,6 @@ K ampliop
 F op_amps/lmc6082.pdf
 $ENDCMP
 #
-$CMP OPA322
-D Op amp.
-K AmpliOp
-F op_amps/tl071.pdf
-$ENDCMP
-#
-$CMP OPA4322
-D Dual Op amp (low power)
-K ampliop
-F ns/lm158.pdf
-$ENDCMP
-#
 $CMP TL072
 D Dual Op amp (low power)
 K ampliop
