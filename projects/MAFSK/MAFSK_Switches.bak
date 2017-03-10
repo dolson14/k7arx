@@ -1,0 +1,466 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:texas-instruments
+LIBS:linear-technology
+LIBS:k7arx
+LIBS:MAFSK-cache
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 3 4
+Title "Oscillator Switch Array"
+Date ""
+Rev "A"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 2400 3150 0    100  Input ~ 0
+OSC_MS
+$Comp
+L R R24
+U 1 1 58BE32D7
+P 7000 2450
+F 0 "R24" V 7080 2450 50  0000 C CNN
+F 1 "R" V 7000 2450 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 6930 2450 50  0001 C CNN
+F 3 "" H 7000 2450 50  0000 C CNN
+	1    7000 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R23
+U 1 1 58BE33E8
+P 7000 2050
+F 0 "R23" V 7080 2050 50  0000 C CNN
+F 1 "R" V 7000 2050 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 6930 2050 50  0001 C CNN
+F 3 "" H 7000 2050 50  0000 C CNN
+	1    7000 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R22
+U 1 1 58BE34FA
+P 7750 3550
+F 0 "R22" V 7830 3550 50  0000 C CNN
+F 1 "R" V 7750 3550 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 7680 3550 50  0001 C CNN
+F 3 "" H 7750 3550 50  0000 C CNN
+	1    7750 3550
+	0    1    1    0   
+$EndComp
+Text HLabel 6100 3400 0    100  Input ~ 0
+MORSE
+$Comp
+L +3.3V #PWR021
+U 1 1 58BE36D2
+P 7000 1800
+F 0 "#PWR021" H 7000 1650 50  0001 C CNN
+F 1 "+3.3V" H 7000 1940 50  0000 C CNN
+F 2 "" H 7000 1800 50  0000 C CNN
+F 3 "" H 7000 1800 50  0000 C CNN
+	1    7000 1800
+	1    0    0    -1  
+$EndComp
+Text HLabel 2450 4650 0    100  Input ~ 0
+OSC_Mk
+Text HLabel 1600 5800 0    100  Input ~ 0
+UART
+Text HLabel 6100 3700 0    100  Input ~ 0
+AFSK_EN
+$Comp
+L C C13
+U 1 1 58BE4443
+P 8350 3150
+F 0 "C13" H 8375 3250 50  0000 L CNN
+F 1 "C" H 8375 3050 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 8388 3000 50  0001 C CNN
+F 3 "" H 8350 3150 50  0000 C CNN
+	1    8350 3150
+	0    1    1    0   
+$EndComp
+Text HLabel 8600 3150 2    100  Output ~ 0
+AUDIO_OUT
+$Comp
+L OPA4322 U4
+U 1 1 58BE6BB0
+P 2850 3250
+F 0 "U4" H 2850 3400 50  0000 L CNN
+F 1 "OPA4322" H 2800 3000 50  0000 L CNN
+F 2 "texas-instruments:PW-14" H 2850 3250 50  0001 C CNN
+F 3 "" H 2850 3250 50  0000 C CNN
+	1    2850 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPA4322 U4
+U 3 1 58BE6C5C
+P 2850 5450
+F 0 "U4" H 2850 5600 50  0000 L CNN
+F 1 "OPA4322" H 2800 5200 50  0000 L CNN
+F 2 "texas-instruments:PW-14" H 2850 5450 50  0001 C CNN
+F 3 "" H 2850 5450 50  0000 C CNN
+	3    2850 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPA4322 U4
+U 4 1 58BE6C9D
+P 7750 3150
+F 0 "U4" H 7750 3300 50  0000 L CNN
+F 1 "OPA4322" H 7700 2900 50  0000 L CNN
+F 2 "texas-instruments:PW-14" H 7750 3150 50  0001 C CNN
+F 3 "" H 7750 3150 50  0000 C CNN
+	4    7750 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPA4322 U4
+U 5 1 58BE6D35
+P 5800 2200
+F 0 "U4" H 5800 2350 50  0000 L CNN
+F 1 "OPA4322" H 5750 1950 50  0000 L CNN
+F 2 "texas-instruments:PW-14" H 5800 2200 50  0001 C CNN
+F 3 "" H 5800 2200 50  0000 C CNN
+	5    5800 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR022
+U 1 1 58BE6E9F
+P 5700 1800
+F 0 "#PWR022" H 5700 1650 50  0001 C CNN
+F 1 "+3.3V" H 5700 1940 50  0000 C CNN
+F 2 "" H 5700 1800 50  0000 C CNN
+F 3 "" H 5700 1800 50  0000 C CNN
+	1    5700 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR023
+U 1 1 58BE6EC5
+P 5700 2600
+F 0 "#PWR023" H 5700 2350 50  0001 C CNN
+F 1 "GND" H 5700 2450 50  0000 C CNN
+F 2 "" H 5700 2600 50  0000 C CNN
+F 3 "" H 5700 2600 50  0000 C CNN
+	1    5700 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L TS5A2066 U6
+U 1 1 58BEE70A
+P 4600 4900
+F 0 "U6" H 4400 5300 60  0000 C CNN
+F 1 "TS5A2066" H 4600 4300 60  0000 C CNN
+F 2 "texas-instruments:DCT" H 4600 4900 60  0001 C CNN
+F 3 "" H 4600 4900 60  0001 C CNN
+	1    4600 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R19
+U 1 1 58BEEB78
+P 3500 3250
+F 0 "R19" V 3580 3250 50  0000 C CNN
+F 1 "R" V 3500 3250 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3430 3250 50  0001 C CNN
+F 3 "" H 3500 3250 50  0000 C CNN
+	1    3500 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2450 4650 2550 4650
+Wire Wire Line
+	5700 1800 5700 1900
+Wire Wire Line
+	5700 2500 5700 2600
+Wire Wire Line
+	2400 3150 2550 3150
+Wire Wire Line
+	2550 3350 2450 3350
+Wire Wire Line
+	2450 3350 2450 3550
+$Comp
+L TS5A2066 U7
+U 1 1 58BF0610
+P 6700 3400
+F 0 "U7" H 6500 3900 60  0000 C CNN
+F 1 "TS5A2066" H 6700 2800 60  0000 C CNN
+F 2 "texas-instruments:DCT" H 6700 3400 60  0001 C CNN
+F 3 "" H 6700 3400 60  0001 C CNN
+	1    6700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R20
+U 1 1 58BF0752
+P 3500 4750
+F 0 "R20" V 3580 4750 50  0000 C CNN
+F 1 "R" V 3500 4750 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3430 4750 50  0001 C CNN
+F 3 "" H 3500 4750 50  0000 C CNN
+	1    3500 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6100 3400 6200 3400
+Wire Wire Line
+	5200 3550 6200 3550
+Wire Wire Line
+	6100 3700 6200 3700
+Wire Wire Line
+	7200 3250 7450 3250
+Wire Wire Line
+	7300 3250 7300 3550
+Wire Wire Line
+	7200 3550 7600 3550
+$Comp
+L OPA4322 U4
+U 2 1 58BE6C02
+P 2850 4750
+F 0 "U4" H 2850 4900 50  0000 L CNN
+F 1 "OPA4322" H 2800 4500 50  0000 L CNN
+F 2 "texas-instruments:PW-14" H 2850 4750 50  0001 C CNN
+F 3 "" H 2850 4750 50  0000 C CNN
+	2    2850 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 4850 2450 4850
+Wire Wire Line
+	2450 4850 2450 5050
+Wire Wire Line
+	2450 5050 3250 5050
+Wire Wire Line
+	3250 5050 3250 4750
+Connection ~ 3250 4750
+Wire Wire Line
+	5200 5050 5100 5050
+Wire Wire Line
+	5100 4750 5200 4750
+Connection ~ 5200 4750
+Text HLabel 2450 5350 0    100  Input ~ 0
+OSC_Sp
+Wire Wire Line
+	2450 5350 2550 5350
+Wire Wire Line
+	2550 5550 2450 5550
+Wire Wire Line
+	2450 5550 2450 5750
+Wire Wire Line
+	2450 5750 3250 5750
+Wire Wire Line
+	3250 5750 3250 5450
+Connection ~ 3250 5450
+Wire Wire Line
+	4000 6300 4000 5200
+Wire Wire Line
+	4000 5200 4100 5200
+Wire Wire Line
+	1700 5150 1700 6300
+Wire Wire Line
+	1700 5150 3700 5150
+Wire Wire Line
+	1700 6300 2650 6300
+Wire Wire Line
+	3150 6300 4000 6300
+$Comp
+L +3.3V #PWR024
+U 1 1 58BF26D7
+P 4050 4550
+F 0 "#PWR024" H 4050 4400 50  0001 C CNN
+F 1 "+3.3V" H 4050 4690 50  0000 C CNN
+F 2 "" H 4050 4550 50  0000 C CNN
+F 3 "" H 4050 4550 50  0000 C CNN
+	1    4050 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 4550 4050 4600
+Wire Wire Line
+	4050 4600 4100 4600
+$Comp
+L +3.3V #PWR025
+U 1 1 58BF27B9
+P 6150 3050
+F 0 "#PWR025" H 6150 2900 50  0001 C CNN
+F 1 "+3.3V" H 6150 3190 50  0000 C CNN
+F 2 "" H 6150 3050 50  0000 C CNN
+F 3 "" H 6150 3050 50  0000 C CNN
+	1    6150 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 3050 6150 3100
+Wire Wire Line
+	6150 3100 6200 3100
+$Comp
+L GND #PWR026
+U 1 1 58BF28E9
+P 7250 3800
+F 0 "#PWR026" H 7250 3550 50  0001 C CNN
+F 1 "GND" H 7250 3650 50  0000 C CNN
+F 2 "" H 7250 3800 50  0000 C CNN
+F 3 "" H 7250 3800 50  0000 C CNN
+	1    7250 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 3750 7250 3750
+Wire Wire Line
+	7250 3750 7250 3800
+$Comp
+L GND #PWR027
+U 1 1 58BF2A98
+P 5150 5300
+F 0 "#PWR027" H 5150 5050 50  0001 C CNN
+F 1 "GND" H 5150 5150 50  0000 C CNN
+F 2 "" H 5150 5300 50  0000 C CNN
+F 3 "" H 5150 5300 50  0000 C CNN
+	1    5150 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 5250 5150 5250
+Wire Wire Line
+	5150 5250 5150 5300
+Wire Wire Line
+	5200 3550 5200 5050
+$Comp
+L GND #PWR028
+U 1 1 58BE36FF
+P 7000 2700
+F 0 "#PWR028" H 7000 2450 50  0001 C CNN
+F 1 "GND" H 7000 2550 50  0000 C CNN
+F 2 "" H 7000 2700 50  0000 C CNN
+F 3 "" H 7000 2700 50  0000 C CNN
+	1    7000 2700
+	1    0    0    -1  
+$EndComp
+Connection ~ 7300 3250
+Connection ~ 7300 3550
+Wire Wire Line
+	8050 3150 8200 3150
+Wire Wire Line
+	7900 3550 8100 3550
+Wire Wire Line
+	8100 3550 8100 3150
+Connection ~ 8100 3150
+Wire Wire Line
+	8500 3150 8600 3150
+Wire Wire Line
+	7000 2700 7000 2600
+Wire Wire Line
+	7000 2200 7000 2300
+Wire Wire Line
+	7000 1800 7000 1900
+Wire Wire Line
+	7000 2250 7450 2250
+Wire Wire Line
+	7450 2250 7450 3050
+Connection ~ 7000 2250
+Wire Wire Line
+	1600 5800 1700 5800
+Connection ~ 1700 5800
+Wire Wire Line
+	3250 3250 3250 3550
+Wire Wire Line
+	3250 3550 2450 3550
+Connection ~ 3250 3250
+Wire Wire Line
+	3650 3250 6200 3250
+$Comp
+L R R21
+U 1 1 58BF5672
+P 3500 5450
+F 0 "R21" V 3580 5450 50  0000 C CNN
+F 1 "R" V 3500 5450 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3430 5450 50  0001 C CNN
+F 3 "" H 3500 5450 50  0000 C CNN
+	1    3500 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3150 4750 3350 4750
+Wire Wire Line
+	3650 4750 4100 4750
+Wire Wire Line
+	3150 5450 3350 5450
+Wire Wire Line
+	3650 5450 3850 5450
+Wire Wire Line
+	3850 5450 3850 5050
+Wire Wire Line
+	3850 5050 4100 5050
+Wire Wire Line
+	3700 5150 3700 4900
+Wire Wire Line
+	3700 4900 4100 4900
+Wire Wire Line
+	3150 3250 3350 3250
+$Comp
+L SN74AHC1G14 U5
+U 1 1 58BFA656
+P 2850 6300
+F 0 "U5" H 2700 6500 60  0000 C CNN
+F 1 "SN74AHC1G14" H 2850 6100 60  0000 C CNN
+F 2 "texas-instruments:DBV" H 2850 6300 60  0001 C CNN
+F 3 "" H 2850 6300 60  0001 C CNN
+	1    2850 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SN74AHC1G14 U5
+U 2 1 58BFA8D9
+P 5200 2200
+F 0 "U5" H 5050 2400 60  0000 C CNN
+F 1 "SN74AHC1G14" V 5400 2200 60  0000 C CNN
+F 2 "texas-instruments:DBV" H 5200 2200 60  0001 C CNN
+F 3 "" H 5200 2200 60  0001 C CNN
+	2    5200 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 1850 5200 1850
+Wire Wire Line
+	5200 1850 5200 2000
+Connection ~ 5700 1850
+Wire Wire Line
+	5700 2550 5200 2550
+Wire Wire Line
+	5200 2550 5200 2400
+Connection ~ 5700 2550
+$EndSCHEMATC

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name linear-technology)(type KiCad)(uri /Users/dolson/research/personal/k7arx/projects/kicad/lib/linear-technology.pretty)(options "")(descr ""))
+)
