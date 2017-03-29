@@ -1,4 +1,4 @@
-update=Thursday, March 23, 2017 'PMt' 04:33:16 PM
+update=Thursday, March 23, 2017 'PMt' 04:31:06 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=/Users/dolson/research/personal/k7arx/projects/kicad/lib
+LibDir=../kicad/lib
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,14 +58,15 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=k7arx
+LibName30=/Users/dolson/research/personal/k7arx/projects/kicad/lib/k7arx
+LibName31=/Users/dolson/research/personal/k7arx/projects/kicad/lib/linear-technology
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=Pcbnew
+NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
