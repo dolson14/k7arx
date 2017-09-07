@@ -1,4 +1,4 @@
-update=Thursday, April 27, 2017 'AMt' 10:51:49 AM
+update=4/28/2017 7:14:56 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=../kicad/lib
@@ -59,13 +69,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=/Users/dolson/research/personal/k7arx/projects/kicad/lib/k7arx
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName31=k7arx
