@@ -1,64 +1,227 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP Crystal
-D Two pin crystal
+D Two pin crystal with ground pad for case
 K quartz ceramic resonator oscillator
 $ENDCMP
 #
+$CMP DPST_Switch_NO
+D DPST Analog Switch
+K dpst switch 
+$ENDCMP
+#
+$CMP ESDAULC6
+D ESD protection for high speed interface
+K ESD
+F master/documents/datasheets/ESDAULC6.pdf
+$ENDCMP
+#
+$CMP FQP20N06L
+D N-channel MOSFET, 60V Vds, 21A Id, TO-220
+K N-Channel MOSFET
+F master/documents/datasheets/FQP20N06L.pdf
+$ENDCMP
+#
+$CMP FQP30N06L
+D N-channel MOSFET, 60V Vds, 32A Id, TO-220
+K N-Channel MOSFET
+F master/documents/datasheets/FQP30N06L.pdf
+$ENDCMP
+#
+$CMP FQP50N06L
+D N-channel MOSFET, 60V Vds, 52.4A Id, TO-220
+K N-Channel MOSFET
+F master/documents/datasheets/FQP50N06L.pdf
+$ENDCMP
+#
+$CMP FT230X
+D USB to basic UART IC
+K USB UART
+F master/documents/datasheets/FT230X.pdf
+$ENDCMP
+#
+$CMP LM158
+D Dual Op amp [32V Vs, 1 MHz, low power]
+K opamp ampliop
+F master/documents/datasheets/LMx58.pdf
+$ENDCMP
+#
+$CMP LM258
+D Dual Op amp [32V Vs, 1 MHz, low power]
+K ampliop
+F master/documents/datasheets/LMx58.pdf
+$ENDCMP
+#
+$CMP LM2904
+D Dual Op amp [26V Vs, 1 MHz, low power]
+K ampliop
+F master/documents/datasheets/LMx58.pdf
+$ENDCMP
+#
 $CMP LM358
-D Dual Op amp (low power)
+D Dual Op amp [32V Vs, 1 MHz, low power]
 K ampliop
-F ns/lm158.pdf
+F master/documents/datasheets/LMx58.pdf
 $ENDCMP
 #
-$CMP LM358N
-D Dual Op amp (low power)
-K ampliop
-F ns/lm158.pdf
+$CMP LM555
+D TTL Timer
+K timer oscillator
+F master/documents/datasheets/LM555.pdf
 $ENDCMP
 #
-$CMP LMC6062
-D Dual Op amp (low power)
-K ampliop
-F op_amps/lmc6062.pdf
-$ENDCMP
-#
-$CMP LMC6082
-D Dual Op amp (low power)
-K ampliop
-F op_amps/lmc6082.pdf
+$CMP LMC555
+D CMOS Timer
+K timer oscillator
+F master/documents/datasheets/LMC555.pdf
 $ENDCMP
 #
 $CMP LT1763
-D MICROPOWER 5V 100mA LDO regulator TSOT-23 5-leads package
+D Voltage Regulator [20V in, 500mA, low nosie, micropower, LDO]
 K REGULATOR POSITIVE POWER LDO
-F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+F master/documents/datasheets/LT1763.pdf
 $ENDCMP
 #
-$CMP OPA2322
-D Dual Op amp (low power)
+$CMP MAG3110
+D Three-Axis Digital Magnetometer
+K magnetometer
+F master/documents/datasheets/MAG3110.pdf
+$ENDCMP
+#
+$CMP MAX7426
+D 5th-Order Lowpass Elliptic Filter (5V Supply)
+K filter
+F master/documents/datasheets/MAX7426-MAX7427.pdf
+$ENDCMP
+#
+$CMP MAX7427
+D 5th-Order Lowpass Elliptic Filter (3V Supply)
+K filter
+F master/documents/datasheets/MAX7426-MAX7427.pdf
+$ENDCMP
+#
+$CMP MMA8653FC
+D 3-Axis Digital Accelerometer
+K accelerometer
+F master/documents/datasheets/MMA8653FC.pdf
+$ENDCMP
+#
+$CMP MSP430G2153
+D Mixed Signal Microcontroller [1k/256, 2 TA, 8 CA+, 8 ADC10, 1 USCI]
+K msp430 microcontroller adc usci
+F master/documents/datasheets/MSP430G2x53.pdf
+$ENDCMP
+#
+$CMP MSP430G2213
+D Mixed Signal Microcontroller [2k/256, 2 TA, 8 CA+, 1 USCI]
+K msp430 microcontroller usci
+F master/documents/datasheets/MSP430G2x53.pdf
+$ENDCMP
+#
+$CMP MSP430G2253
+D Mixed Signal Microcontroller [2k/256, 2 TA, 8 CA+, 8 ADC10, 1 USCI]
+K msp430 microcontroller adc usci
+F master/documents/datasheets/MSP430G2x53.pdf
+$ENDCMP
+#
+$CMP MSP430G2313
+D Mixed Signal Microcontroller [4k/256, 2 TA, 8 CA+, 1 USCI]
+K msp430 microcontroller usci
+F master/documents/datasheets/MSP430G2x53.pdf
+$ENDCMP
+#
+$CMP MSP430G2353
+D Mixed Signal Microcontroller [4k/256, 2 TA, 8 CA+, 8 ADC10, 1 USCI]
+K msp430 microcontroller adc usci
+F master/documents/datasheets/MSP430G2x53.pdf
+$ENDCMP
+#
+$CMP MSP430G2413
+D Mixed Signal Microcontroller [8k/512, 2 TA, 8 CA+, 1 USCI]
+K msp430 microcontroller usci
+F master/documents/datasheets/MSP430G2x53.pdf
+$ENDCMP
+#
+$CMP MSP430G2453
+D Mixed Signal Microcontroller [8k/512, 2 TA, 8 CA+, 8 ADC10, 1 USCI]
+K msp430 microcontroller adc usci
+F master/documents/datasheets/MSP430G2x53.pdf
+$ENDCMP
+#
+$CMP MSP430G2513
+D Mixed Signal Microcontroller [16k/512, 2 TA, 8 CA+, 1 USCI]
+K msp430 microcontroller usci
+F master/documents/datasheets/MSP430G2x53.pdf
+$ENDCMP
+#
+$CMP MSP430G2553
+D Mixed Signal Microcontroller [16k/512, 2 TA, 8 CA+, 8 ADC10, 1 USCI]
+K msp430 microcontroller adc usci
+F master/documents/datasheets/MSP430G2x53.pdf
 $ENDCMP
 #
 $CMP OPA322
-D Op amp.
-K AmpliOp
-F op_amps/tl071.pdf
+D Single Op Amp [6V Vs, 20 MHz, Low-Noise, RRI/O, Shutdown]
+K opamp opliamp rrio
+F master/documents/datasheets/OPAx322.pdf
 $ENDCMP
 #
 $CMP OPA4322
-D Quad Op amp (low power)
-K ampliop
-F ns/lm158.pdf
+D Quad Op Amp [6V Vs, 20 MHz, Low-Noise, RRI/O, Shutdown]
+K opamp ampliop rrio
+F master/documents/datasheets/OPAx322.pdf
 $ENDCMP
 #
-$CMP TL072
-D Dual Op amp (low power)
-K ampliop
+$CMP PowerSwitch
+D SPST Analog Switch [Tactile]
+K spst switch tactile
 $ENDCMP
 #
-$CMP TL082
-D Dual Op amp (Cmos)
-K ampliop
+$CMP SN74AHC1G14
+D Schmitt-Trigger Logic Inverter [1 Gate]
+K schmitt trigger inverter logic
+F master/documents/datasheets/SN74AHC1G14.pdf
+$ENDCMP
+#
+$CMP SN74AHC1G32
+D OR Logic Gate [1 Gate]
+K or logic
+F master/documents/datasheets/SN74AHC1G32.pdf
+$ENDCMP
+#
+$CMP SN74AHC74
+D Dual D-Type Flip-Flops
+K flip flop
+F master/documents/datasheets/SN74AHC74.pdf
+$ENDCMP
+#
+$CMP Si5351A
+D I2C Programmable CMOS Clock Generator
+K clock oscillator
+F master/documents/datasheets/Si5351-B.pdf
+$ENDCMP
+#
+$CMP TS5A1066
+D SPST Analog Switch [10 Ohm, 6.5V Vs, 400 MHz]
+K spst switch
+F master/documents/datasheets/TS5A1066.pdf
+$ENDCMP
+#
+$CMP TS5A2053
+D SPDT Analog Switch [10 Ohm, 6.5V Vs, 330 MHz]
+K spdt switch
+F master/documents/datasheets/TS5A2053.pdf
+$ENDCMP
+#
+$CMP TS5A2066
+D Dual SPST Analog Switch [10 Ohm, 6.5V Vs, 400 MHz]
+K spst switch
+F master/documents/datasheets/TS5A2066.pdf
+$ENDCMP
+#
+$CMP TactileSwitch_NO
+D SPST Analog Switch [Tactile]
+K spst switch tactile
 $ENDCMP
 #
 #End Doc Library
