@@ -1,4 +1,4 @@
-update=Friday, April 20, 2018 'PMt' 12:10:52 PM
+update=Wednesday, May 02, 2018 'PMt' 01:21:22 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=~/.local/lib/kicad/digikey-kicad-library/digikey-symbols;~/research/personal/k7arx/projects/kicad/lib
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,4 +58,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/Users/dolson/research/personal/k7arx/projects/kicad/lib/k7arx
+LibName30=dk_Embedded-Microcontrollers
+LibName31=k7arx
