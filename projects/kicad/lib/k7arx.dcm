@@ -237,6 +237,11 @@ K flip flop
 F master/documents/datasheets/SN74AHC74.pdf
 $ENDCMP
 #
+$CMP SPDTSwitch
+D SPST Analog Switch [Tactile]
+K spst switch tactile
+$ENDCMP
+#
 $CMP Si5351A
 D I2C Programmable CMOS Clock Generator
 K clock oscillator

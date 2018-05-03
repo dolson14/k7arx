@@ -112,10 +112,22 @@ K msp430 microcontroller adc usci
 F master/documents/datasheets/MSP430G2x53.pdf
 $ENDCMP
 #
+$CMP MSP430G2203
+D Mixed Signal Microcontroller [2k/256, 2 TA, 1 USCI]
+K msp430 microcontroller usci
+F master/documents/datasheets/MSP430G2x03.pdf
+$ENDCMP
+#
 $CMP MSP430G2213
 D Mixed Signal Microcontroller [2k/256, 2 TA, 8 CA+, 1 USCI]
 K msp430 microcontroller usci
-F master/documents/datasheets/MSP430G2x53.pdf
+F master/documents/datasheets/MSP430G2x13.pdf
+$ENDCMP
+#
+$CMP MSP430G2233
+D Mixed Signal Microcontroller [2k/256, 2 TA, 8 ADC10, 1 USCI]
+K msp430 microcontroller adc usci
+F master/documents/datasheets/MSP430G2x33.pdf
 $ENDCMP
 #
 $CMP MSP430G2253
@@ -124,10 +136,22 @@ K msp430 microcontroller adc usci
 F master/documents/datasheets/MSP430G2x53.pdf
 $ENDCMP
 #
+$CMP MSP430G2303
+D Mixed Signal Microcontroller [4k/256, 2 TA, 1 USCI]
+K msp430 microcontroller usci
+F master/documents/datasheets/MSP430G2x03.pdf
+$ENDCMP
+#
 $CMP MSP430G2313
 D Mixed Signal Microcontroller [4k/256, 2 TA, 8 CA+, 1 USCI]
 K msp430 microcontroller usci
-F master/documents/datasheets/MSP430G2x53.pdf
+F master/documents/datasheets/MSP430G2x13.pdf
+$ENDCMP
+#
+$CMP MSP430G2333
+D Mixed Signal Microcontroller [4k/256, 2 TA, 8 ADC10, 1 USCI]
+K msp430 microcontroller adc usci
+F master/documents/datasheets/MSP430G2x33.pdf
 $ENDCMP
 #
 $CMP MSP430G2353
@@ -136,10 +160,22 @@ K msp430 microcontroller adc usci
 F master/documents/datasheets/MSP430G2x53.pdf
 $ENDCMP
 #
+$CMP MSP430G2403
+D Mixed Signal Microcontroller [8k/512, 2 TA, 1 USCI]
+K msp430 microcontroller usci
+F master/documents/datasheets/MSP430G2x03.pdf
+$ENDCMP
+#
 $CMP MSP430G2413
 D Mixed Signal Microcontroller [8k/512, 2 TA, 8 CA+, 1 USCI]
 K msp430 microcontroller usci
-F master/documents/datasheets/MSP430G2x53.pdf
+F master/documents/datasheets/MSP430G2x13.pdf
+$ENDCMP
+#
+$CMP MSP430G2433
+D Mixed Signal Microcontroller [8k/512, 2 TA, 8 ADC10, 1 USCI]
+K msp430 microcontroller adc usci
+F master/documents/datasheets/MSP430G2x33.pdf
 $ENDCMP
 #
 $CMP MSP430G2453
@@ -151,7 +187,13 @@ $ENDCMP
 $CMP MSP430G2513
 D Mixed Signal Microcontroller [16k/512, 2 TA, 8 CA+, 1 USCI]
 K msp430 microcontroller usci
-F master/documents/datasheets/MSP430G2x53.pdf
+F master/documents/datasheets/MSP430G2x13.pdf
+$ENDCMP
+#
+$CMP MSP430G2533
+D Mixed Signal Microcontroller [16k/512, 2 TA, 8 ADC10, 1 USCI]
+K msp430 microcontroller adc usci
+F master/documents/datasheets/MSP430G2x33.pdf
 $ENDCMP
 #
 $CMP MSP430G2553
