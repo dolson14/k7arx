@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=~/.local/lib/kicad/digikey-kicad-library/digikey-symbols;~/research/personal/k7arx/projects/kicad/lib
+LibDir=~/.local/lib/kicad/digikey-kicad-library/digikey-symbols;~/research/personal/k7arx/projects/kicad/lib;%USERPROFILE%/.local/lib/kicad/digikey-kicad-library/digikey-symbols;%USERPROFILE%/.local/lib/kicad/k7arx
 [eeschema/libraries]
 LibName1=power
 LibName2=device
