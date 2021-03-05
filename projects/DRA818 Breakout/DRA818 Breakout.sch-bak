@@ -1,0 +1,195 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "DRA818X Breakout"
+Date "2019-10-17"
+Rev "A"
+Comp "K7ARX"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L k7arx:DRA818X U1
+U 1 1 5DA96132
+P 5600 4000
+F 0 "U1" H 5100 4750 50  0000 L CNN
+F 1 "DRA818X" H 5000 4850 50  0000 L CNN
+F 2 "k7arx:DRA818" H 5600 4000 50  0001 C CNN
+F 3 "" H 5600 4000 50  0001 C CNN
+	1    5600 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0101
+U 1 1 5DA965E0
+P 5500 3100
+F 0 "#PWR0101" H 5500 2950 50  0001 C CNN
+F 1 "VCC" H 5517 3273 50  0000 C CNN
+F 2 "" H 5500 3100 50  0001 C CNN
+F 3 "" H 5500 3100 50  0001 C CNN
+	1    5500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5DA97794
+P 5600 4700
+F 0 "#PWR0102" H 5600 4450 50  0001 C CNN
+F 1 "GND" H 5605 4527 50  0000 C CNN
+F 2 "" H 5600 4700 50  0001 C CNN
+F 3 "" H 5600 4700 50  0001 C CNN
+	1    5600 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J3
+U 1 1 5DA97D80
+P 6200 3100
+F 0 "J3" H 6300 3075 50  0000 L CNN
+F 1 "Conn_Coaxial" H 6300 2984 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 6200 3100 50  0001 C CNN
+F 3 " ~" H 6200 3100 50  0001 C CNN
+	1    6200 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5DA989EB
+P 6200 3400
+F 0 "#PWR0103" H 6200 3150 50  0001 C CNN
+F 1 "GND" H 6205 3227 50  0000 C CNN
+F 2 "" H 6200 3400 50  0001 C CNN
+F 3 "" H 6200 3400 50  0001 C CNN
+	1    6200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J2
+U 1 1 5DA9BBE0
+P 4700 3600
+F 0 "J2" H 4618 4017 50  0000 C CNN
+F 1 "Conn_01x06" H 4618 3926 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 4700 3600 50  0001 C CNN
+F 3 "~" H 4700 3600 50  0001 C CNN
+	1    4700 3600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3250 5500 3100
+Wire Wire Line
+	5800 3250 5800 3100
+Wire Wire Line
+	5800 3100 6000 3100
+Wire Wire Line
+	6200 3300 6200 3400
+Wire Wire Line
+	4900 3600 5100 3600
+Wire Wire Line
+	4900 3700 5100 3700
+Wire Wire Line
+	4900 3800 5100 3800
+Wire Wire Line
+	4900 3900 5100 3900
+Wire Wire Line
+	5500 4550 5500 4650
+Wire Wire Line
+	5500 4650 5600 4650
+Wire Wire Line
+	5600 4650 5600 4550
+Wire Wire Line
+	5600 4650 5700 4650
+Wire Wire Line
+	5700 4650 5700 4550
+Connection ~ 5600 4650
+Wire Wire Line
+	5700 4650 5800 4650
+Wire Wire Line
+	5800 4650 5800 4550
+Connection ~ 5700 4650
+Wire Wire Line
+	5600 4700 5600 4650
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5DA9D830
+P 7000 3600
+F 0 "J1" H 7080 3592 50  0000 L CNN
+F 1 "Conn_01x04" H 7080 3501 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7000 3600 50  0001 C CNN
+F 3 "~" H 7000 3600 50  0001 C CNN
+	1    7000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0104
+U 1 1 5DA9E2CE
+P 6700 3500
+F 0 "#PWR0104" H 6700 3350 50  0001 C CNN
+F 1 "VCC" V 6718 3627 50  0000 L CNN
+F 2 "" H 6700 3500 50  0001 C CNN
+F 3 "" H 6700 3500 50  0001 C CNN
+	1    6700 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5DA9F2AC
+P 6700 3600
+F 0 "#PWR0105" H 6700 3350 50  0001 C CNN
+F 1 "GND" V 6705 3472 50  0000 R CNN
+F 2 "" H 6700 3600 50  0001 C CNN
+F 3 "" H 6700 3600 50  0001 C CNN
+	1    6700 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6700 3500 6800 3500
+Wire Wire Line
+	6700 3600 6800 3600
+Wire Wire Line
+	6800 3700 6100 3700
+Wire Wire Line
+	6100 3900 6500 3900
+Wire Wire Line
+	6500 3900 6500 3800
+Wire Wire Line
+	6500 3800 6800 3800
+Text Label 5800 3100 0    50   ~ 0
+RF
+Text Label 4950 3600 0    50   ~ 0
+SQ
+Text Label 4950 3700 0    50   ~ 0
+PTT
+Text Label 4950 3800 0    50   ~ 0
+PD
+Text Label 4950 3900 0    50   ~ 0
+HL
+Text Label 4950 4100 0    50   ~ 0
+RXD
+Text Label 4950 4200 0    50   ~ 0
+TXD
+Text Label 6200 3700 0    50   ~ 0
+AFOut
+Text Label 6200 3900 0    50   ~ 0
+MIC
+Text Label 5500 3200 1    50   ~ 0
+VCC
+Wire Wire Line
+	4600 4100 4600 3500
+Wire Wire Line
+	4600 3500 4900 3500
+Wire Wire Line
+	4600 4100 5100 4100
+Wire Wire Line
+	4500 4200 4500 3400
+Wire Wire Line
+	4500 3400 4900 3400
+Wire Wire Line
+	4500 4200 5100 4200
+Connection ~ 4900 3500
+Connection ~ 4900 3400
+$EndSCHEMATC
