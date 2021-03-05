@@ -1,0 +1,202 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Antenna AE?
+U 1 1 5B2AA09E
+P 2700 2100
+F 0 "AE?" H 2625 2175 50  0001 R CNN
+F 1 "Antenna" H 2625 2100 50  0001 R CNN
+F 2 "" H 2700 2100 50  0001 C CNN
+F 3 "" H 2700 2100 50  0001 C CNN
+	1    2700 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LTRIM L?
+U 1 1 5B2AA13B
+P 3100 2500
+F 0 "L?" V 3025 2500 50  0001 C CNN
+F 1 "500-1500 uH" V 3300 2500 50  0000 C CNN
+F 2 "" H 3100 2500 50  0001 C CNN
+F 3 "" H 3100 2500 50  0001 C CNN
+	1    3100 2500
+	0    1    -1   0   
+$EndComp
+$Comp
+L L L?
+U 1 1 5B2AA414
+P 3400 2800
+F 0 "L?" V 3350 2800 50  0001 C CNN
+F 1 "30 t" V 3300 2800 50  0000 C CNN
+F 2 "" H 3400 2800 50  0001 C CNN
+F 3 "" H 3400 2800 50  0001 C CNN
+	1    3400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L L L?
+U 1 1 5B2AA46E
+P 3500 2800
+F 0 "L?" V 3450 2800 50  0001 C CNN
+F 1 "105 t" V 3400 2800 50  0000 C CNN
+F 2 "" H 3500 2800 50  0001 C CNN
+F 3 "" H 3500 2800 50  0001 C CNN
+	1    3500 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L GNDPWR #PWR?
+U 1 1 5B2AA48C
+P 3400 3100
+F 0 "#PWR?" H 3400 2900 50  0001 C CNN
+F 1 "GNDPWR" H 3400 2970 50  0001 C CNN
+F 2 "" H 3400 3050 50  0001 C CNN
+F 3 "" H 3400 3050 50  0001 C CNN
+	1    3400 3100
+	1    0    0    -1  
+$EndComp
+Text Notes 3700 2950 1    50   ~ 0
+230 uH
+$Comp
+L C_Variable C?
+U 1 1 5B2AA575
+P 4000 2800
+F 0 "C?" H 4025 2725 50  0001 L CNN
+F 1 "38-365 pF" H 4025 2650 50  0000 L CNN
+F 2 "" H 4000 2800 50  0001 C CNN
+F 3 "" H 4000 2800 50  0001 C CNN
+	1    4000 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D?
+U 1 1 5B2AA5AA
+P 4400 2500
+F 0 "D?" H 4400 2600 50  0001 C CNN
+F 1 "1N34" H 4400 2400 50  0000 C CNN
+F 2 "" H 4400 2500 50  0001 C CNN
+F 3 "" H 4400 2500 50  0001 C CNN
+	1    4400 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C?
+U 1 1 5B2AA5F4
+P 4800 2800
+F 0 "C?" H 4825 2900 50  0001 L CNN
+F 1 "0.01 uF" H 4825 2700 50  0000 L CNN
+F 2 "" H 4838 2650 50  0001 C CNN
+F 3 "" H 4800 2800 50  0001 C CNN
+	1    4800 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C?
+U 1 1 5B2AA684
+P 5200 2500
+F 0 "C?" H 5225 2600 50  0001 L CNN
+F 1 "1 uF" V 5400 2400 50  0000 L CNN
+F 2 "" H 5200 2500 50  0001 C CNN
+F 3 "" H 5200 2500 50  0001 C CNN
+	1    5200 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Audio-Jack-2 J?
+U 1 1 5B2AA6C7
+P 5750 2750
+F 0 "J?" H 5725 2825 50  0001 C CNN
+F 1 "2000 R" H 5650 2850 50  0000 C CNN
+F 2 "" H 6000 2750 50  0001 C CNN
+F 3 "" H 6000 2750 50  0001 C CNN
+	1    5750 2750
+	-1   0    0    -1  
+$EndComp
+Wire Notes Line
+	3000 2425 3200 2425
+Wire Notes Line
+	3000 2400 3200 2400
+Wire Wire Line
+	2700 2300 2700 2500
+Wire Wire Line
+	2700 2500 2950 2500
+Wire Wire Line
+	3250 2500 3400 2500
+Wire Wire Line
+	3400 2500 3400 2650
+Wire Wire Line
+	3400 2950 3400 3100
+Wire Wire Line
+	3500 2650 3500 2500
+Wire Wire Line
+	3500 2950 3500 3100
+Wire Wire Line
+	3500 2500 4250 2500
+Wire Wire Line
+	4000 2500 4000 2650
+Wire Wire Line
+	3500 3100 5550 3100
+Wire Wire Line
+	4000 3100 4000 2950
+Connection ~ 4000 2500
+Wire Wire Line
+	4800 3100 4800 2950
+Connection ~ 4000 3100
+Wire Wire Line
+	4550 2500 5050 2500
+Wire Wire Line
+	4800 2650 4800 2500
+Connection ~ 4800 2500
+Wire Wire Line
+	5350 2500 5550 2500
+Connection ~ 4800 3100
+Wire Wire Line
+	5550 2500 5550 2750
+Wire Wire Line
+	5550 3100 5550 2850
+$EndSCHEMATC

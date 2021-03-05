@@ -7,7 +7,7 @@ $ENDCMP
 #
 $CMP DPST_Switch_NO
 D DPST Analog Switch
-K dpst switch 
+K dpst switch
 $ENDCMP
 #
 $CMP ESDAULC6

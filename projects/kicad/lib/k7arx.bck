@@ -7,7 +7,7 @@ $ENDCMP
 #
 $CMP DPST_Switch_NO
 D DPST Analog Switch
-K dpst switch 
+K dpst switch
 $ENDCMP
 #
 $CMP ESDAULC6
@@ -235,6 +235,11 @@ $CMP SN74AHC74
 D Dual D-Type Flip-Flops
 K flip flop
 F master/documents/datasheets/SN74AHC74.pdf
+$ENDCMP
+#
+$CMP SPDTSwitch
+D SPST Analog Switch [Tactile]
+K spst switch tactile
 $ENDCMP
 #
 $CMP Si5351A
