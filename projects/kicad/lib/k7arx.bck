@@ -5,6 +5,11 @@ D Two pin crystal with ground pad for case
 K quartz ceramic resonator oscillator
 $ENDCMP
 #
+$CMP DPST_PowerSwitch
+D SPST Analog Switch [Tactile]
+K spst switch tactile
+$ENDCMP
+#
 $CMP DPST_Switch_NO
 D DPST Analog Switch
 K dpst switch
@@ -238,6 +243,11 @@ F master/documents/datasheets/SN74AHC74.pdf
 $ENDCMP
 #
 $CMP SPDTSwitch
+D SPST Analog Switch [Tactile]
+K spst switch tactile
+$ENDCMP
+#
+$CMP SPST_PowerSwitch
 D SPST Analog Switch [Tactile]
 K spst switch tactile
 $ENDCMP

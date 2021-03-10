@@ -1,4 +1,4 @@
-158237364988976
+172776164152629
 Air_Coils_SML_NEOSID
 Neosid_Air-Coil_SML_1turn_HDM0131A
 
@@ -39277,6 +39277,13 @@ AVB88-PCB
 4
 1
 k7arx
+DRA818
+
+
+0
+21
+19
+k7arx
 ESP-12F
 
 
@@ -39382,6 +39389,13 @@ Keystone-92 Battery_Contact 14430
 6
 2
 k7arx
+LCD-1602A
+
+
+0
+16
+16
+k7arx
 MSPSCI_400mil
 
 
@@ -39417,6 +39431,20 @@ MSPSCI_logo_400mil
 0
 0
 k7arx
+PB400 DPST Pushbutton Switch
+
+
+0
+4
+4
+k7arx
+POT-3352T
+
+
+0
+3
+3
+k7arx
 R_CF-12
 
 
@@ -39444,6 +39472,41 @@ R_CF-100
 0
 2
 2
+k7arx
+SMA_Board_Edge
+
+
+0
+8
+2
+k7arx
+SPST-D6xxx
+
+
+0
+4
+2
+k7arx
+SPST-EVQ2
+
+
+0
+2
+2
+k7arx
+Tag-Connect_TC2030
+
+
+0
+26
+6
+k7arx
+Tag-Connect_TC2030-NL
+
+
+0
+12
+6
 k7arx
 USB-Mini_B
 

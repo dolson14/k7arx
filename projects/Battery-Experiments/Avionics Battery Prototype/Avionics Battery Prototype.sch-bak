@@ -5,7 +5,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Avionics Battery Prototype"
-Date "2021-03-05"
+Date "2021-03-08"
 Rev "B"
 Comp "K7ARX"
 Comment1 "4s1p rechargeable battery with auto-balancing and state reporting"
@@ -569,37 +569,37 @@ $EndComp
 $Comp
 L Device:R R22
 U 1 1 605F86BF
-P 3650 2750
-F 0 "R22" H 3720 2796 50  0000 L CNN
-F 1 "33k" V 3650 2675 50  0000 L CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 3580 2750 50  0001 C CNN
-F 3 "~" H 3650 2750 50  0001 C CNN
-	1    3650 2750
+P 3350 2750
+F 0 "R22" H 3420 2796 50  0000 L CNN
+F 1 "33k" V 3350 2675 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3280 2750 50  0001 C CNN
+F 3 "~" H 3350 2750 50  0001 C CNN
+	1    3350 2750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C9
 U 1 1 605F8EF7
-P 3650 3250
-F 0 "C9" H 3765 3296 50  0000 L CNN
-F 1 "10n" H 3765 3205 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 3688 3100 50  0001 C CNN
-F 3 "~" H 3650 3250 50  0001 C CNN
-	1    3650 3250
+P 3350 3250
+F 0 "C9" H 3465 3296 50  0000 L CNN
+F 1 "10n" H 3465 3205 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 3388 3100 50  0001 C CNN
+F 3 "~" H 3350 3250 50  0001 C CNN
+	1    3350 3250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0118
 U 1 1 605F9538
-P 3650 3450
-F 0 "#PWR0118" H 3650 3200 50  0001 C CNN
-F 1 "GND" H 3650 3300 50  0000 C CNN
-F 2 "" H 3650 3450 50  0001 C CNN
-F 3 "" H 3650 3450 50  0001 C CNN
-	1    3650 3450
+P 3350 3450
+F 0 "#PWR0118" H 3350 3200 50  0001 C CNN
+F 1 "GND" H 3350 3300 50  0000 C CNN
+F 2 "" H 3350 3450 50  0001 C CNN
+F 3 "" H 3350 3450 50  0001 C CNN
+	1    3350 3450
 	1    0    0    -1  
 $EndComp
-Text GLabel 3750 3000 2    50   Input ~ 0
+Text GLabel 3900 3000 2    50   Input ~ 0
 ~RST
 Text GLabel 2850 2900 2    50   Input ~ 0
 TEST
@@ -737,23 +737,23 @@ $EndComp
 $Comp
 L Connector:Jack-DC J1
 U 1 1 6078A590
-P 6050 1200
-F 0 "J1" H 6107 1525 50  0000 C CNN
-F 1 "Jack-DC" H 6107 1434 50  0000 C CNN
-F 2 "Connect:Banana_Jack_2Pin" H 6100 1160 50  0001 C CNN
-F 3 "~" H 6100 1160 50  0001 C CNN
-	1    6050 1200
+P 5700 1200
+F 0 "J1" H 5757 1525 50  0000 C CNN
+F 1 "Jack-DC" H 5757 1434 50  0000 C CNN
+F 2 "Connect:Banana_Jack_2Pin" H 5750 1160 50  0001 C CNN
+F 3 "~" H 5750 1160 50  0001 C CNN
+	1    5700 1200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0124
 U 1 1 607952FC
-P 6400 1350
-F 0 "#PWR0124" H 6400 1100 50  0001 C CNN
-F 1 "GND" H 6400 1200 50  0000 C CNN
-F 2 "" H 6400 1350 50  0001 C CNN
-F 3 "" H 6400 1350 50  0001 C CNN
-	1    6400 1350
+P 6050 1350
+F 0 "#PWR0124" H 6050 1100 50  0001 C CNN
+F 1 "GND" H 6050 1200 50  0000 C CNN
+F 2 "" H 6050 1350 50  0001 C CNN
+F 3 "" H 6050 1350 50  0001 C CNN
+	1    6050 1350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -796,7 +796,7 @@ U 1 1 607DC48E
 P 1700 5800
 F 0 "J4" H 1618 5275 50  0000 C CNN
 F 1 "SBW JTAG" H 1618 5366 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 1700 5800 50  0001 C CNN
+F 2 "k7arx:Tag-Connect_TC2030-NL" H 1700 5800 50  0001 C CNN
 F 3 "~" H 1700 5800 50  0001 C CNN
 	1    1700 5800
 	-1   0    0    1   
@@ -1343,12 +1343,12 @@ $EndComp
 $Comp
 L power:+3V3 #PWR0133
 U 1 1 606E803F
-P 3650 2500
-F 0 "#PWR0133" H 3650 2350 50  0001 C CNN
-F 1 "+3V3" H 3650 2650 50  0000 C CNN
-F 2 "" H 3650 2500 50  0001 C CNN
-F 3 "" H 3650 2500 50  0001 C CNN
-	1    3650 2500
+P 3350 2500
+F 0 "#PWR0133" H 3350 2350 50  0001 C CNN
+F 1 "+3V3" H 3350 2650 50  0000 C CNN
+F 2 "" H 3350 2500 50  0001 C CNN
+F 3 "" H 3350 2500 50  0001 C CNN
+	1    3350 2500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1372,16 +1372,14 @@ Wire Wire Line
 Wire Wire Line
 	2800 3400 2850 3400
 Wire Wire Line
-	3650 3450 3650 3400
+	3350 3450 3350 3400
 Wire Wire Line
-	3650 3100 3650 3000
+	3350 3100 3350 3000
+Connection ~ 3350 3000
 Wire Wire Line
-	3750 3000 3650 3000
-Connection ~ 3650 3000
+	3350 3000 3350 2900
 Wire Wire Line
-	3650 3000 3650 2900
-Wire Wire Line
-	3650 2600 3650 2500
+	3350 2600 3350 2500
 Wire Wire Line
 	2800 3300 2850 3300
 $Comp
@@ -1440,8 +1438,6 @@ Wire Wire Line
 	1050 3500 1050 3550
 Wire Wire Line
 	1050 3850 1050 3900
-Wire Wire Line
-	2800 3000 3650 3000
 Wire Wire Line
 	1700 3300 1700 4550
 Wire Wire Line
@@ -1726,12 +1722,6 @@ Wire Notes Line width 32 rgb(214, 0, 0)
 	7150 3200 7350 3200
 Wire Notes Line width 32 style solid rgb(214, 0, 0)
 	7350 1200 7150 1200
-Wire Wire Line
-	7250 1100 6350 1100
-Wire Wire Line
-	6350 1300 6400 1300
-Wire Wire Line
-	6400 1300 6400 1350
 Wire Notes Line width 32 style solid rgb(214, 0, 0)
 	7350 5200 7150 5200
 Wire Notes Line width 32 rgb(214, 0, 0)
@@ -1758,17 +1748,14 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x02 J2
 U 1 1 610EB4DA
-P 7050 1000
-F 0 "J2" V 7250 950 50  0000 C CNN
-F 1 "TP" V 7150 950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 7050 1000 50  0001 C CNN
-F 3 "~" H 7050 1000 50  0001 C CNN
-	1    7050 1000
+P 6250 1000
+F 0 "J2" V 6450 950 50  0000 C CNN
+F 1 "Enable" V 6350 950 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 6250 1000 50  0001 C CNN
+F 3 "~" H 6250 1000 50  0001 C CNN
+	1    6250 1000
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	7250 1000 7250 1100
-Connection ~ 7250 1100
 Wire Wire Line
 	7250 900  7250 850 
 $Comp
@@ -1808,10 +1795,73 @@ Wire Wire Line
 	7400 1300 7400 900 
 Wire Wire Line
 	7400 900  7250 900 
-Connection ~ 7250 900 
 Wire Wire Line
 	7050 4800 7050 4550
 Wire Wire Line
 	7050 4550 7250 4550
 Connection ~ 7250 4550
+Wire Wire Line
+	2800 3000 3350 3000
+$Comp
+L k7arx:TactileSwitch_NO S2
+U 1 1 6050288C
+P 3700 3250
+F 0 "S2" V 3647 3418 60  0000 L CNN
+F 1 "Tac Switch" V 3753 3418 60  0000 L CNN
+F 2 "k7arx:EVQ2_Momentary_Switch" H 3700 3250 60  0001 C CNN
+F 3 "" H 3700 3250 60  0001 C CNN
+	1    3700 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0141
+U 1 1 605034C9
+P 3700 3450
+F 0 "#PWR0141" H 3700 3200 50  0001 C CNN
+F 1 "GND" H 3700 3300 50  0000 C CNN
+F 2 "" H 3700 3450 50  0001 C CNN
+F 3 "" H 3700 3450 50  0001 C CNN
+	1    3700 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3000 3700 3050
+Wire Wire Line
+	3350 3000 3700 3000
+Wire Wire Line
+	3700 3000 3900 3000
+Connection ~ 3700 3000
+$Comp
+L k7arx:DPST_PowerSwitch S1
+U 1 1 6057BD9E
+P 6750 1150
+F 0 "S1" H 6750 1300 60  0000 C CNN
+F 1 "Power Switch" H 6750 1000 60  0000 C CNN
+F 2 "k7arx:PB400 DPST Pushbutton Switch" H 6750 1100 60  0001 C CNN
+F 3 "" H 6750 1100 60  0001 C CNN
+	1    6750 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 1100 6950 1100
+Wire Wire Line
+	6950 1200 6950 1100
+Wire Wire Line
+	6550 1100 6450 1100
+Wire Wire Line
+	6550 1200 6550 1100
+Wire Wire Line
+	6450 1000 6450 1100
+Connection ~ 6450 1100
+Wire Wire Line
+	6450 1100 6000 1100
+Wire Wire Line
+	6450 900  7250 900 
+Connection ~ 7250 900 
+Wire Wire Line
+	6000 1300 6050 1300
+Wire Wire Line
+	6050 1300 6050 1350
+Connection ~ 6550 1100
+Connection ~ 6950 1100
 $EndSCHEMATC
