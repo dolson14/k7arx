@@ -1878,32 +1878,25 @@ Wire Wire Line
 Connection ~ 3250 1500
 Wire Wire Line
 	2800 2600 2900 2600
-$Comp
-L Connector:Conn_01x01_Female TP3
-U 1 1 6061AE7F
-P 3300 2700
-F 0 "TP3" H 3328 2726 50  0000 L CNN
-F 1 "Xin" H 3350 2800 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 3300 2700 50  0001 C CNN
-F 3 "~" H 3300 2700 50  0001 C CNN
-	1    3300 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female TP4
-U 1 1 6061B8E9
-P 3300 2800
-F 0 "TP4" H 3328 2826 50  0000 L CNN
-F 1 "Xout" H 3328 2735 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 3300 2800 50  0001 C CNN
-F 3 "~" H 3300 2800 50  0001 C CNN
-	1    3300 2800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2800 3000 3600 3000
+$Comp
+L Connector_Generic:Conn_01x02 TP3
+U 1 1 604B2441
+P 3250 2700
+F 0 "TP3" H 3330 2692 50  0000 L CNN
+F 1 "XTAL" H 3330 2601 50  0000 L CNN
+F 2 "k7arx:8MM-11 2-pin PCB socket" H 3250 2700 50  0001 C CNN
+F 3 "~" H 3250 2700 50  0001 C CNN
+	1    3250 2700
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	2800 2700 3100 2700
+	2800 2700 3050 2700
 Wire Wire Line
-	2800 2800 3100 2800
+	2800 2800 3050 2800
+Text Label 2850 2700 0    50   ~ 0
+X+
+Text Label 2850 2800 0    50   ~ 0
+X-
 $EndSCHEMATC
