@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Avionics Battery Prototype"
-Date "2021-03-08"
-Rev "B"
+Date "2021-03-11"
+Rev "C"
 Comp "K7ARX"
 Comment1 "4s1p rechargeable battery with auto-balancing and state reporting"
 Comment2 ""
