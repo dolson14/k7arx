@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "B:\\Users\\david\\Documents\\Projects\\k7arx\\projects\\Battery-Experiments\\Avionics Battery Prototype\\Avionics Battery Prototype.sch")
-    (date "3/11/2021 6:37:10 PM")
+    (date "3/19/2021 5:49:13 PM")
     (tool "Eeschema (5.1.9)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
