@@ -30,7 +30,7 @@ U 1 1 6049369B
 P 5550 3450
 F 0 "J1" V 5514 3262 50  0000 R CNN
 F 1 "Conn_01x02" V 5423 3262 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal" H 5550 3450 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 5550 3450 50  0001 C CNN
 F 3 "~" H 5550 3450 50  0001 C CNN
 	1    5550 3450
 	0    -1   -1   0   

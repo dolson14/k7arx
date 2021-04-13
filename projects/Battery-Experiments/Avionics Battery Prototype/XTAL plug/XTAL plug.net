@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source "/home/david/research/k7arx/projects/Battery-Experiments/Avionics Battery Prototype/XTAL plug/XTAL plug.sch")
-    (date "Wed 10 Mar 2021 10:21:42 AM PST")
-    (tool "Eeschema 5.1.9")
+    (source "B:\\Users\\david\\Documents\\Projects\\k7arx\\projects\\Battery-Experiments\\Avionics Battery Prototype\\XTAL plug\\XTAL plug.sch")
+    (date "4/13/2021 11:22:23 AM")
+    (tool "Eeschema (5.1.9)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "Watch Crystal Plug")
@@ -24,7 +24,7 @@
       (tstamp 60491E29))
     (comp (ref J1)
       (value Conn_01x02)
-      (footprint Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical)
+      (footprint "k7arx:PreciDip 8MM-11 2-pin SMD")
       (datasheet ~)
       (libsource (lib Connector_Generic) (part Conn_01x02) (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
@@ -55,9 +55,9 @@
         (pin (num 3) (name 3) (type passive)))))
   (libraries
     (library (logical Connector_Generic)
-      (uri /usr/share/kicad/library/Connector_Generic.lib))
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Connector_Generic.lib"))
     (library (logical Device)
-      (uri /usr/share/kicad/library/Device.lib)))
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Device.lib")))
   (nets
     (net (code 1) (name "Net-(J1-Pad1)")
       (node (ref X1) (pin 1))
